@@ -1,4 +1,4 @@
-%% (b) AR(1) generation
+%% (b) AR(1) generation input is y0, T, sigma, alpha, rho;
 function Y=AR1T(y0,T,sigma,alpha,rho)
 	% initialize Y
 	Y=zeros(T,1);
