@@ -1,4 +1,4 @@
-%% (a) OLS Function Practise
+%% (a) OLS Function Practise Input are Y and X;
 function [betahat, cvar, se] = olsl(Y, X)
 % 1. data credibility check
 	[ys1,ys2]=size(Y);
