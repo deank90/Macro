@@ -8,6 +8,8 @@ nbk=1000;
 crit=1;
 epsi=1e-6;
 
+iternum=0;
+
 ks=((1-beta*(1-delta))/(alpha*beta))^(1/(alpha-1));
 
 dev=.9;
@@ -29,6 +31,7 @@ while crit>epsi
     end
 	crit=max(abs(tv-v));
 	v=tv;
+    iternum=iternum+1;
 end
 
 kp=kgrid(dr);
